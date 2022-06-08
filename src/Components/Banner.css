@@ -1,0 +1,50 @@
+.banner{
+    background-image: url('/public/banner2.jpg');
+    height: 400px;
+}
+
+.bannerContainer{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    padding-top:25px;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.tagline{
+    font-weight: bold;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    height: 20%;
+    margin-bottom:15;
+    font-size:3rem;
+    font-family: 'Bangers', cursive;
+}
+
+.subtitle{
+    display: flex;
+    padding-top: 20px;
+    color: darkgray;
+    font-family:montserrat;
+    justify-content:center;
+
+}
+
+.Carousel{
+    height:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color: aquamarine;
+}
+
+.caruselItem{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: white;
+}

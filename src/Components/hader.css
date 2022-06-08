@@ -1,0 +1,8 @@
+
+.title{
+    flex: 1;
+    color: gold;
+    font-family: 'Metal Mania', cursive;
+    cursor: pointer;
+    padding-right: 4rem;
+}
